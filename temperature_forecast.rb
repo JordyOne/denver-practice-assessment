@@ -49,3 +49,11 @@ forecast = [
     }
   }
 ]
+num = 0
+
+while num < 7
+  print "It's #{forecast[num]["day"].capitalize} and the high today is #{forecast[num]["temperatures"]["high"]} and the low today is #{forecast[num]["temperatures"]["low"]}."
+  puts
+  num += 1
+end
+
